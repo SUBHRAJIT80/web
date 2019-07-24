@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flask Tutorial</title>
+  </head>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+
+    <br>
+    <div class="d-flex justify-content-center">
+      <h1> <div style="color:#098"> Using Flask for HOME page.</div> </h1>
+    </div>
+    <br>
+
+    <font size=1>一号:size=1 </font>
+    <br>
+    <font size=6>六号:size=6 </font>
+    <div style="color:#00F">蓝色:#00F</div>
+    <div style="color:#0FF">蓝色:#0FF</div>
+    <div style="color:#098">蓝绿色:#098</div>
+    <div style="color:#000098">蓝色:#000098</div>
+    <p> Flask is Fun </p>
+    <p> Today's breakfast is too bad. </p>
+
+    {% endblock %}
+  </body>
+</html>
