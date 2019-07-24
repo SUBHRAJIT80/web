@@ -16,7 +16,7 @@ def about():
 def salvador():
     return "Hello, Salvador!!!"
 
-@app.route("/sal")
+@app.route("/salva")
 def salva():
     return render_template("salva.html")
 @app.route("/tp")
